@@ -1,8 +1,8 @@
 function indexOfIgnoreCase(s1, s2) {
-   iif (subStr === "") return 0; // Handle empty substring case
-    if (!str || !subStr) return -1; // Handle null or undefined inputs
-    const s1 = str.toLowerCase();
-    const s2 = subStr.toLowerCase();
+   if (s2 === "") return 0; // Handle empty substring case
+    if (!s1 || !s2) return -1; // Handle null or undefined inputs
+    const lowerStr = s1.toLowerCase();
+    const lowerSubStr = s2.toLowerCase();
     return lowerStr.indexOf(lowerSubStr);
 }
 
